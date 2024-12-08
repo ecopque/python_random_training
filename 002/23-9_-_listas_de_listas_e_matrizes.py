@@ -12,4 +12,4 @@ for i in range(0, len(nova_var)):
     for i2 in range(0, len(nova_var[i])):
         print(nova_var[i][i2])
 
-  # Edson Copque | https://linktr.ee/edsoncopque
+# Edson Copque | https://linktr.ee/edsoncopque
