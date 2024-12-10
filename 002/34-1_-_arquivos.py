@@ -8,13 +8,22 @@ files.write('Edson\n')
 files.write('Santos\n')
 # Response: Edson | Santos
 
-hd_names = open('new_names.txt', 'w')
+###
+hd_openw = open('new_names.txt', 'w')
 while True:
     x = input('Enter a name or 0 to exit: ')
     if x == '0':
         break
     else:
-        hd_names.write(x + '\n')
-hd_names.close()
+        hd_openw.write(x + '\n')
+hd_openw.close()
+
+hd_openr = open('new_names.txt', 'r')
+hd_read = hd_openr.read()
+print(hd_read)
+print()
+
+for i in hd_read:
+    print(i)
 
 # Edson Copque | https://linktr.ee/edsoncopque
