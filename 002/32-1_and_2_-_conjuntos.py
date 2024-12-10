@@ -19,4 +19,8 @@ w = x.difference(y)
 print(w)
 # Response: {8, 3}
 
+a = x.symmetric_difference(y)
+print(a)
+# Response: {2, 3, 6, 8}
+
 # Edson Copque | https://linktr.ee/edsoncopque
