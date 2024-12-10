@@ -21,6 +21,7 @@ hd_openw.close()
 hd_openr = open('new_names.txt', 'r')
 hd_read = hd_openr.read()
 print(hd_read)
+hd_openr.close()
 print()
 
 for i in hd_read:
