@@ -9,7 +9,7 @@ p1 = Person()
 # Response: Hello
 
 p1.method_message()
-# Method message
+# Response: Method message
 
 class NewPerson():
     def __init__(self, name, age, height):
