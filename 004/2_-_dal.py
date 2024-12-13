@@ -18,7 +18,8 @@ class PersonDal:
             name = data[0]
             age = int(data[1])
             cpf = int(data[2])
-        return PersonModel(name, age, cpf)
+        read = PersonModel(name, age, cpf)
+        return read
 
 # # Creating a PersonModel instance:
 # p1 = PersonModel('Edsuu', 50, 987654321)
