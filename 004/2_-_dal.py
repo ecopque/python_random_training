@@ -20,13 +20,13 @@ class PersonDal:
             cpf = int(data[2])
         return PersonModel(name, age, cpf)
 
-# Creating a PersonModel instance:
-p1 = PersonModel('Edsuu', 50, 987654321)
+# # Creating a PersonModel instance:
+# p1 = PersonModel('Edsuu', 50, 987654321)
 
-# Saving data to file:
-PersonDal.savedal(p1)
+# # Saving data to file:
+# PersonDal.savedal(p1)
 
-# Reading data:
-print(PersonDal.readdal().cpf)
+# # Reading data:
+# print(PersonDal.readdal().cpf)
 
 # Edson Copque | https://linktr.ee/edsoncopque
