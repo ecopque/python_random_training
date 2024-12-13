@@ -14,7 +14,7 @@ class PersonDal:
         # age = 100
         # cpf = 123456
         with open('persons.txt', 'r') as file:
-            data = file.read().split()
+            data = file.read().split(' ')
             name = data[0]
             age = int(data[1])
             cpf = int(data[2])
