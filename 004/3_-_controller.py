@@ -13,6 +13,6 @@ class PersonController:
             except:
                 return False
 
-PersonController.registercontroller('Victor', 100, 12345678912)
+PersonController.registercontroller('Default', 100, 12345678912)
 
 # Edson Copque | https://linktr.ee/edsoncopque
