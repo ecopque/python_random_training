@@ -1,7 +1,7 @@
 # Data modeling
 
 class PersonModel:
-    def __init__(self, name, age, cpf):
+    def __init__(self, name: str, age: int, cpf: int):
         self.name = name
         self.age = age
         self.cpf = cpf
